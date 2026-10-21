@@ -1,7 +1,7 @@
 pkgbase = zadloop-bin
 	pkgdesc = ZadLoop desktop coding agent (unofficial repackaging of the official Debian package)
-	pkgver = 0.5.1
-	pkgrel = 1
+	pkgver = 0.7.0
+	pkgrel = 2
 	url = https://zadloop.com/
 	install = zadloop.install
 	arch = x86_64
@@ -43,10 +43,10 @@ pkgbase = zadloop-bin
 	optdepends = libappindicator: system tray integration
 	provides = zadloop
 	conflicts = zadloop
-	noextract = ZadLoop-0.5.1-x64.deb
+	noextract = ZadLoop-0.7.0-x64.deb
 	options = !strip
 	options = !debug
-	source = ZadLoop-0.5.1-x64.deb::https://releases.zadloop.com/desktop/v1/stable/linux/x64/ZadLoop-0.5.1-x64.deb
-	sha256sums = a7510134c94e93144549d2e7fff1f4f32e3b713cdb61e176dabb0a628068c625
+	source = ZadLoop-0.7.0-x64.deb::https://releases.zadloop.com/desktop/v1/stable/linux/x64/ZadLoop-0.7.0-x64.deb
+	sha256sums = 11b681efada88f73b272f8eaa9c565ba92a98d195593144526eac5a950e0a437
 
 pkgname = zadloop-bin

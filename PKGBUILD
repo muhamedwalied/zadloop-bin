@@ -1,8 +1,8 @@
 # Maintainer: Bassam Tarek Al-Araby <bassamalarabii@gmail.com>
 pkgname=zadloop-bin
 _pkgname=zadloop
-pkgver=0.5.1
-pkgrel=1
+pkgver=0.7.0
+pkgrel=2
 pkgdesc='ZadLoop desktop coding agent (unofficial repackaging of the official Debian package)'
 arch=('x86_64')
 url='https://zadloop.com/'
@@ -49,7 +49,8 @@ options=('!strip' '!debug')
 install="${_pkgname}.install"
 source=("ZadLoop-${pkgver}-x64.deb::https://releases.zadloop.com/desktop/v1/stable/linux/x64/ZadLoop-${pkgver}-x64.deb")
 noextract=("ZadLoop-${pkgver}-x64.deb")
-sha256sums=('a7510134c94e93144549d2e7fff1f4f32e3b713cdb61e176dabb0a628068c625')
+sha256sums=('11b681efada88f73b272f8eaa9c565ba92a98d195593144526eac5a950e0a437')
+
 
 package() {
   local deb="$srcdir/ZadLoop-${pkgver}-x64.deb"
