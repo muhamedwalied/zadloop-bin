@@ -1,8 +1,19 @@
 # Maintainer: Bassam Tarek Al-Araby <bassamalarabii@gmail.com>
+# Contributor: Mohamed Walied <https://github.com/muhamedwalied>
+#
+# Unofficial repackaging of the official ZadLoop Debian package for Arch Linux.
+# Not affiliated with, endorsed by, or supported by ZadLoop.
+#
+# The sha256sums entry is calculated locally from the downloaded .deb by
+# update-zadloop.sh. ZadLoop does not publish a SHA-256, so this checksum
+# detects a changed or corrupted download; it does not independently prove
+# that the publisher produced the file. ZadLoop publishes SHA-512 hashes in
+# https://releases.zadloop.com/desktop/v1/stable/linux/x64/latest-linux.yml,
+# which update-zadloop.sh verifies when openssl is available.
 pkgname=zadloop-bin
 _pkgname=zadloop
 pkgver=0.7.0
-pkgrel=2
+pkgrel=1
 pkgdesc='ZadLoop desktop coding agent (unofficial repackaging of the official Debian package)'
 arch=('x86_64')
 url='https://zadloop.com/'
